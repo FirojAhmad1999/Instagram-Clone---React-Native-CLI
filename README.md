@@ -1,35 +1,39 @@
 # Instagram Clone - React Native CLI
 
-An Instagram-inspired mobile application built using **React Native CLI** and **Firebase**, providing essential features like user authentication, image uploads, post interactions, and more.
+An Instagram-inspired mobile application built using **React Native CLI** and **Firebase**, offering essential features like user authentication, image uploads, post interactions, and more.
 
 ---
 
 ## Features
 
-- **User Authentication**
-  - Firebase-based Sign Up, Log In, and Sign Out.
-  - Secure user data stored in Firebase Authentication and Firestore.
-- **Firebase Integration**
-  - Real-time database for managing user data and posts.
-  - Firebase Storage for uploading and fetching images.
-- **Redux State Management**
-  - Global state management using Redux.
-  - Firebase subscribers for real-time data updates.
-- **Post Interactions**
-  - Add posts with images.
-  - Like/dislike features with database updates.
-- **Dynamic UI**
-  - Custom headers and reusable UI components.
-  - Responsive design for a better user experience.
-- **Image Uploading**
-  - Directly upload images from the device to Firebase Storage.
+### User Authentication
+- Firebase-based **Sign Up**, **Log In**, and **Sign Out**.
+- Secure user data managed with Firebase Authentication and Firestore.
+
+### Firebase Integration
+- Real-time database for handling user data and posts.
+- Firebase Storage for seamless image uploading and fetching.
+
+### Redux State Management
+- **Global state management** using Redux.
+- Real-time updates with Firebase subscribers.
+
+### Post Interactions
+- Add posts with images.
+- Like/dislike functionality with database updates.
+
+### Dynamic UI
+- Custom headers and reusable UI components.
+- Fully responsive design for optimal user experience.
+
+### Image Uploading
+- Upload images directly from your device to Firebase Storage.
 
 ---
 
 ## Tech Stack
-
 - **React Native CLI**
-- **Firebase (Authentication, Firestore, Storage)**
+- **Firebase** (Authentication, Firestore, Storage)
 - **Redux**
 - **JavaScript (ES6+)**
 
@@ -38,7 +42,7 @@ An Instagram-inspired mobile application built using **React Native CLI** and **
 ## Installation
 
 ### Prerequisites
-Ensure the following are installed on your system:
+Ensure the following tools are installed on your system:
 - Node.js
 - React Native CLI
 - Android Studio or Xcode
@@ -47,9 +51,8 @@ Ensure the following are installed on your system:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/instagram-clone.git
+   git clone https://github.com/FirojAhmad1999/Instagram-Clone---React-Native-CLI.git
    cd instagram-clone
-
 
 Install dependencies:
 
@@ -58,7 +61,7 @@ Copy code
 npm install
 Set up Firebase:
 
-Create a project on the Firebase Console.
+Create a project in the Firebase Console.
 Add the configuration to a file named firebaseConfig.js in your project:
 javascript
 Copy code
@@ -91,34 +94,34 @@ bash
 Copy code
 npx react-native run-ios
 Project Structure
-css
+plaintext
 Copy code
 src/
- ├── action/
- ├── assets/
- │   └── undraw_welcome_component.svg
- ├── components/
- │   ├── EmptyContainer.js
- │   └── Post.js
- ├── layout/
- │   └── CustomHeader.js
- ├── reducer/
- │   ├── auth.js
- │   ├── index.js
- │   └── post.js
- ├── screens/
- │   ├── AddPost.js
- │   ├── Home.js
- │   ├── SignIn.js
- │   └── SignUp.js
- ├── utils/
- │   ├── AskPermission.js
- │   └── options.js
- ├── App.js
- ├── RootApp.js
- └── store.js
+├── action/
+├── assets/
+│   └── undraw_welcome_component.svg
+├── components/
+│   ├── EmptyContainer.js
+│   └── Post.js
+├── layout/
+│   └── CustomHeader.js
+├── reducer/
+│   ├── auth.js
+│   ├── index.js
+│   └── post.js
+├── screens/
+│   ├── AddPost.js
+│   ├── Home.js
+│   ├── SignIn.js
+│   └── SignUp.js
+├── utils/
+│   ├── AskPermission.js
+│   └── options.js
+├── App.js
+├── RootApp.js
+└── store.js
 Additional Project Files
-.buckconfig: Configuration file for the Buck build system.
+.buckconfig: Configuration for the Buck build system.
 .eslintrc.js: Linting configuration for code quality.
 flowconfig: Configuration for Flow, a static type checker.
 Features in Detail
@@ -131,12 +134,19 @@ Real-time updates across all users.
 Image Upload
 Upload images directly from your device to Firebase Storage.
 State Management
-Redux ensures efficient management of app state.
+Efficient state management using Redux.
 Contributions
-Contributions are welcome! Feel free to fork this repository and submit a pull request.
+Contributions are welcome!
+Feel free to fork this repository and submit a pull request.
 
 License
 This project is licensed under the MIT License.
 
 Author
 Firoj Ahmad
+
+
+
+
+
+

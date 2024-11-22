@@ -58,12 +58,13 @@ Ensure the following tools are installed on your system:
    ```bash
    npm install
 
-3. Set up Firebase:
+3. **Set up Firebase**:
 
-Create a project in the Firebase Console.
-Add the configuration to a file named firebaseConfig.js in your project:
+## Create a project in the Firebase Console.
 
- export const firebaseConfig = {
+## Add the configuration to a file named firebaseConfig.js in your project:
+
+  export const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
   authDomain: "YOUR_AUTH_DOMAIN",
   projectId: "YOUR_PROJECT_ID",
@@ -74,36 +75,36 @@ Add the configuration to a file named firebaseConfig.js in your project:
 
 
 4. Link native dependencies:
-
-npx react-native link
+   npx react-native link
 
 5. Start the Metro Bundler:
+   npx react-native start
 
-npx react-native start
-
-Additional Project Files
+## Additional Project Files:
 .buckconfig: Configuration for the Buck build system.
 .eslintrc.js: Linting configuration for code quality.
 flowconfig: Configuration for Flow, a static type checker.
-Features in Detail
-Authentication
-Create and log in with user credentials.
-Firebase Authentication ensures secure user sessions.
-Posts
-Users can create, like, and dislike posts.
-Real-time updates across all users.
-Image Upload
-Upload images directly from your device to Firebase Storage.
-State Management
-Efficient state management using Redux.
-Contributions
+
+# Features in Detail:
+#  Authentication
+#  Create and log in with user credentials.
+# Firebase Authentication ensures secure user sessions.
+# Posts
+# Users can create, like, and dislike posts.
+# Real-time updates across all users.
+# Image Upload
+# Upload images directly from your device to Firebase Storage.
+# State Management
+# Efficient state management using Redux.
+
+# Contributions
 Contributions are welcome!
 Feel free to fork this repository and submit a pull request.
 
-License
+# License
 This project is licensed under the MIT License.
 
-Author
+# Author
 Firoj Ahmad
 
 

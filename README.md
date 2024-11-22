@@ -49,23 +49,21 @@ Ensure the following tools are installed on your system:
 
 ### Steps
 
-1. Clone the repository:
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/FirojAhmad1999/Instagram-Clone---React-Native-CLI.git
    cd instagram-clone
 
-Install dependencies:
+2. **Install dependencies**:
+   ```bash
+   npm install
 
-bash
-Copy code
-npm install
-Set up Firebase:
+3. Set up Firebase:
 
 Create a project in the Firebase Console.
 Add the configuration to a file named firebaseConfig.js in your project:
-javascript
-Copy code
-export const firebaseConfig = {
+
+ export const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
   authDomain: "YOUR_AUTH_DOMAIN",
   projectId: "YOUR_PROJECT_ID",
@@ -73,53 +71,16 @@ export const firebaseConfig = {
   messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
   appId: "YOUR_APP_ID",
 };
-Link native dependencies:
 
-bash
-Copy code
+
+4. Link native dependencies:
+
 npx react-native link
-Start the Metro Bundler:
 
-bash
-Copy code
+5. Start the Metro Bundler:
+
 npx react-native start
-Run the application:
 
-For Android:
-bash
-Copy code
-npx react-native run-android
-For iOS:
-bash
-Copy code
-npx react-native run-ios
-Project Structure
-plaintext
-Copy code
-src/
-├── action/
-├── assets/
-│   └── undraw_welcome_component.svg
-├── components/
-│   ├── EmptyContainer.js
-│   └── Post.js
-├── layout/
-│   └── CustomHeader.js
-├── reducer/
-│   ├── auth.js
-│   ├── index.js
-│   └── post.js
-├── screens/
-│   ├── AddPost.js
-│   ├── Home.js
-│   ├── SignIn.js
-│   └── SignUp.js
-├── utils/
-│   ├── AskPermission.js
-│   └── options.js
-├── App.js
-├── RootApp.js
-└── store.js
 Additional Project Files
 .buckconfig: Configuration for the Buck build system.
 .eslintrc.js: Linting configuration for code quality.
@@ -146,7 +107,5 @@ Author
 Firoj Ahmad
 
 
-
-
-
-
+ 
+   

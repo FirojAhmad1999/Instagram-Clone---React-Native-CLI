@@ -22,17 +22,17 @@ An Instagram-inspired mobile application built using **React Native CLI** and **
 - Add posts with images.
 - Like/dislike functionality with database updates.
 
-### Dynamic UI
+ Dynamic UI
 - Custom headers and reusable UI components.
 - Fully responsive design for optimal user experience.
 
-### Image Uploading
+Image Uploading
 - Upload images directly from your device to Firebase Storage.
 
 ---
 
-## Tech Stack
-- **React Native CLI**
+Tech Stack
+- React Native CLI
 - **Firebase** (Authentication, Firestore, Storage)
 - **Redux**
 - **JavaScript (ES6+)**
@@ -85,17 +85,17 @@ Ensure the following tools are installed on your system:
 .eslintrc.js: Linting configuration for code quality.
 flowconfig: Configuration for Flow, a static type checker.
 
-# Features in Detail:
-#  Authentication
-#  Create and log in with user credentials.
-# Firebase Authentication ensures secure user sessions.
-# Posts
-# Users can create, like, and dislike posts.
-# Real-time updates across all users.
-# Image Upload
-# Upload images directly from your device to Firebase Storage.
-# State Management
-# Efficient state management using Redux.
+ Features in Detail:
+ Authentication
+ Create and log in with user credentials.
+ Firebase Authentication ensures secure user sessions.
+ Posts
+ Users can create, like, and dislike posts.
+ Real-time updates across all users.
+ Image Upload
+ Upload images directly from your device to Firebase Storage.
+ State Management
+ Efficient state management using Redux.
 
 # Contributions
 Contributions are welcome!
